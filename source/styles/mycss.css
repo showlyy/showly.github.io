@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
+
+.body{
+    font-family: Montserrat, Inter;
+}
+.nav-link{
+    color: #313131;
+}
+
+.navbar-nav .nav-link.active{
+    color: #C82437;
+}
+.navbar-brand img{
+    width: 140px;
+}
+.navbar-toggler{
+    background-color: #C82437;
+    
+}
+
+.sidebar{
+    color: #313131;
+    background: #f7f7f7;
+    border-style: solid;
+    border-color:#313131;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.card{
+    background-color:#f7f7f7;
+    border:none;
+    border-radius: 0px;
+}
+.card .btn {
+    color: #C82437;
+    background-color: #f7f7f7;
+    width: 100%;
+    border-radius: 0px;
+    border: #C82437;
+    border-style: solid;
+    border-width: 1px;
+
+}
+.card .card-text{
+    font-size: 14px;
+}
+.slide-text, .footer-text{
+    color: #313131;
+    margin:auto auto;
+}
+footer{
+    
+    background-color: #f7f7f7;
+    
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .btn:hover{
+    background-color: #C82437;
+    color: #f7f7f7;
+} 
+.card:hover{
+
+    .card-title{
+        color: #C82437;
+    }
+
+}
